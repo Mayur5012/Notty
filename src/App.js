@@ -25,11 +25,11 @@ const App = () => {
 	}, [notes]);
 
 	const addNote = (text) => {
-		const date = new Date();
+		let date = new Date();
 		const newNote = {
 			id: nanoid(),
 			text: text,
-			date: date.toUTCString()
+			date: date.toDateString()
 		};
 		const newNotes = [...notes, newNote];
 		setNotes(newNotes);
