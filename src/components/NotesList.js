@@ -1,3 +1,4 @@
+//list all save notes
 import Note from './Note';
 import AddNote from './AddNote';
 

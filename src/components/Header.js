@@ -8,14 +8,6 @@ const Header = ({ handleToggleDarkMode }) => {
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="form-check form-switch text-light">
-              {/* <input
-                className="form-check-input"
-                onClick={() =>
-                  handleToggleDarkMode((previousDarkMode) => !previousDarkMode)
-                }
-                type="checkbox"
-                id="flexSwitchCheckDefault"
-              /> */}
 
               <label className="switch">
                 <input
@@ -39,15 +31,6 @@ const Header = ({ handleToggleDarkMode }) => {
           </div>
         </div>
       </nav>
-
-      {/* <button
-        onClick={() =>
-          handleToggleDarkMode((previousDarkMode) => !previousDarkMode)
-        }
-        className="save"
-      >
-        Toggle Mode
-      </button> */}
     </div>
   );
 };
